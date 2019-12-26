@@ -56,3 +56,13 @@ body
     font-size: 1.5em;
     font-weight: normal;
 }
+
+footer
+{
+    background-color: #777777;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0;
+}
