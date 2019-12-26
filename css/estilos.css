@@ -1,5 +1,8 @@
 body
 {
+    margin: 0;
+    border: 1px solid gray;
+    background-color: black;
     color: black;
     text-align: left;
     font-family: "Arial";
@@ -13,28 +16,46 @@ body
     text-align: left;
     font-weight: bold;
     margin: 0 auto;
-    border: 1px solid #dddddd;
 }
 
-.cabecera
-{  
+.header
+{   
+    background: #133c50;
     display: flex;
     align-items: center;
     justify-content: start;
-    background-color: darkblue;
     box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.75);
     color: white;
     font-weight: bold;
-    margin: 0;
-    padding: 1em;
+    margin: 0 auto;
+    padding: 0;
+    /* background-image: url("../imagenes/cohete.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center; */
 }
 
-.cabecera h1
+figure
 {
+    margin: 0;
+}
+
+.logo
+{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    
+}
+
+.header h1
+{
+    padding: 0 0 0 1em;
     font-size: 30px;
 }
 
-.cabecera h2
+.header h2
 {
     font-weight: normal;
     font-size: 1.7em;
@@ -43,16 +64,22 @@ body
 
 .post
 {
+    background-color: white;
     padding: 0 1em;
+    margin: 0;
 }
 
 .post h1
 {
+    margin: 0;
+    padding: 10px 0; 
     font-size: 20px;
 }
 
 .post p
 {
+    margin: 0;
+    padding: 10px 0;
     font-size: 1.5em;
     font-weight: normal;
 }
